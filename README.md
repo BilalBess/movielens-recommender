@@ -1,5 +1,7 @@
 # Movie Recommender from Scratch (MovieLens 1M)
 
+[![CI](https://github.com/BilalBess/movielens-recommender/actions/workflows/ci.yml/badge.svg)](https://github.com/BilalBess/movielens-recommender/actions/workflows/ci.yml)
+
 I build a recommender system with only numpy/scipy (no recommender library) and I evaluate it on **two different tasks**: predicting ratings and recommending a top-10 list.
 The main lesson of the project: **the model that predicts ratings best is not the one that recommends best.**
 
@@ -64,6 +66,13 @@ Item-item CF recommends: *Star Wars: Episode V*, *Raiders of the Lost Ark*, *Gro
 pip install -r requirements.txt
 python src/recsys.py       # downloads data (about 6 MB), takes a few minutes
 ```
+
+## Tests
+```bash
+pip install pytest
+pytest -q
+```
+The tests cover the temporal split (no future leak), the bias model, ALS and the ranking metrics. They run on every push with GitHub Actions (`.github/workflows/ci.yml`: lint with ruff, then pytest).
 
 ## Skills shown
 Recommender systems, matrix factorisation (ALS implemented by hand), sparse matrices, temporal validation, ranking metrics (precision, recall, NDCG, coverage), popularity bias, critical reading of results.

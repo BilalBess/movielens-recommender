@@ -1,0 +1,22 @@
+{
+  "user_id": 1,
+  "recently_loved_5_stars": [
+    "Apollo 13 (1995)",
+    "Mary Poppins (1964)",
+    "Ben-Hur (1959)",
+    "Dumbo (1941)",
+    "Schindler's List (1993)"
+  ],
+  "item_item_recommendations": [
+    "Star Wars: Episode V - The Empire Strikes Back (1980)",
+    "Raiders of the Lost Ark (1981)",
+    "Groundhog Day (1993)",
+    "Shawshank Redemption, The (1994)",
+    "Pulp Fiction (1994)",
+    "Toy Story (1995)",
+    "Silence of the Lambs, The (1991)",
+    "Ghostbusters (1984)",
+    "Beetlejuice (1988)",
+    "Star Wars: Episode VI - Return of the Jedi (1983)"
+  ]
+}

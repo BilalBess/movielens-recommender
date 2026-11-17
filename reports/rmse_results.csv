@@ -1,0 +1,5 @@
+,test_rmse
+Global mean,1.1471
+Item mean,0.9893
+Bias model (mu + user + item),0.922
+ALS matrix factorisation (k=32),0.885

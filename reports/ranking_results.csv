@@ -1,0 +1,6 @@
+,precision@10,recall@10,ndcg@10,coverage,avg_log_popularity_of_recs
+Random,0.0048,0.0027,0.0051,1.0,4.2125
+Most popular,0.0798,0.0472,0.0907,0.0316,7.7376
+Item-item CF (cosine),0.0948,0.0785,0.1151,0.1314,7.3916
+ALS predicted rating,0.0359,0.0206,0.0406,0.1948,5.6925
+ALS (items with >= 50 ratings),0.0395,0.0235,0.0457,0.1322,6.2885
